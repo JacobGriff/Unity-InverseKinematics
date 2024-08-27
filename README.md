@@ -10,6 +10,7 @@ How to Integrate
 ![IK-Setup](https://github.com/user-attachments/assets/d0501775-7c75-4ddc-bcfb-0cf7da949e6f)
 
 To setup, all you need is a parent object which contains all of the following:
-	Objects called Start, End, and NextFootPos
-  2 Objects to be used as Armature
-  A Foot Object
+
+	1. Objects called Start, End, and NextFootPos
+	2. Two Objects to be used as Armature
+	3. A Foot Object
