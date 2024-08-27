@@ -1,5 +1,5 @@
 # Unity-InverseKinematics
-A simple Unity Script for Inverse Kinematics
+A simple Unity Engine C# Script for Inverse Kinematics
 
 Example:
 
