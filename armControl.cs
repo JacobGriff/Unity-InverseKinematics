@@ -4,7 +4,6 @@ public class armControl : MonoBehaviour
 {
     GameObject startObj;
     GameObject endObj;
-    GameObject point2;
     GameObject arm;
     GameObject arm2;
     GameObject foot;
@@ -34,7 +33,6 @@ public class armControl : MonoBehaviour
         //Get objs
         startObj = transform.Find("Start").gameObject;
         endObj = transform.Find("End").gameObject;
-        point2 = transform.Find("PointTest").gameObject;
         arm = transform.Find("Arm1").gameObject;
         arm2 = transform.Find("Arm2").gameObject;
         foot = transform.Find("Foot").gameObject;
@@ -170,8 +168,6 @@ public class armControl : MonoBehaviour
         startObj.transform.LookAt(groundedPos);
         jointPos3 = start + startObj.transform.forward * xPoint;
         jointPos3.y = start.y + yPoint;
-
-        point2.transform.position = jointPos3;
 
         return jointPos3;
     }
