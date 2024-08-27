@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class mover : MonoBehaviour
+public class mover_example : MonoBehaviour
 {
     public GameObject[] feet;
 
